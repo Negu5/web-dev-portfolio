@@ -1,0 +1,58 @@
+/*
+	Syntax for CSS
+
+	Selector {
+		property: value;
+	}
+*/
+
+
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+h1, p {
+	font-family: "Montserrat", sans-serif;
+}
+
+#profile {
+	height: 250px;
+	width: 250px;
+
+	/*Optional - round corners*/
+	border-radius: 50%;
+}
+
+#landing {
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+footer {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.fa-globe, .fa-facebook, .fa-x-twitter, .fa-instagram, .fa-tiktok, .fa-youtube {
+	font-size: 25px;
+	color: white;
+	margin: 0 10px 0 10px;
+}
+
+.fa-globe:hover, .fa-facebook:hover, .fa-x-twitter:hover, .fa-instagram:hover, .fa-tiktok:hover, .fa-youtube:hover {
+	color: gray;
+}
+
+body {
+	background-color: #B2C2CA;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 1200'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='100%25' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23c6cfd4'/%3E%3Cstop offset='0.02' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.02' stop-color='%23bac2c6'/%3E%3Cstop offset='0.032' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.032' stop-color='%23cdd7dc'/%3E%3Cstop offset='0.056' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.056' stop-color='%23afb7bc'/%3E%3Cstop offset='0.07' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.07' stop-color='%23b1b5b7'/%3E%3Cstop offset='0.1' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.1' stop-color='%23b2c0c7'/%3E%3Cstop offset='0.126' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.126' stop-color='%23c8d1d6'/%3E%3Cstop offset='0.142' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.142' stop-color='%23cdcecf'/%3E%3Cstop offset='0.159' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.159' stop-color='%23a0a6a8'/%3E%3Cstop offset='0.17' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.17' stop-color='%23bcc8cd'/%3E%3Cstop offset='0.197' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.197' stop-color='%238e9497'/%3E%3Cstop offset='0.218' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.218' stop-color='%23737678'/%3E%3Cstop offset='0.239' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.239' stop-color='%23aebec5'/%3E%3Cstop offset='0.254' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.254' stop-color='%23bbbebf'/%3E%3Cstop offset='0.283' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.283' stop-color='%23cfd5d7'/%3E%3Cstop offset='0.294' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.294' stop-color='%23b0b4b6'/%3E%3Cstop offset='0.305' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.305' stop-color='%235d6569'/%3E%3Cstop offset='0.332' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.332' stop-color='%23adb8be'/%3E%3Cstop offset='0.346' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.346' stop-color='%23e3e6e8'/%3E%3Cstop offset='0.362' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.362' stop-color='%23ebebeb'/%3E%3Cstop offset='0.381' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.381' stop-color='%23b0c0c7'/%3E%3Cstop offset='0.415' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.415' stop-color='%23a8b0b4'/%3E%3Cstop offset='0.428' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.428' stop-color='%23b8c3c9'/%3E%3Cstop offset='0.442' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.442' stop-color='%23aebcc3'/%3E%3Cstop offset='0.456' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.456' stop-color='%23e1e7e9'/%3E%3Cstop offset='0.498' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.498' stop-color='%23b0bec5'/%3E%3Cstop offset='0.511' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.511' stop-color='%23a7b5bc'/%3E%3Cstop offset='0.532' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.532' stop-color='%23e1e3e4'/%3E%3Cstop offset='0.541' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.541' stop-color='%23969ca0'/%3E%3Cstop offset='0.56' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.56' stop-color='%23889093'/%3E%3Cstop offset='0.581' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.581' stop-color='%238e9497'/%3E%3Cstop offset='0.6' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.6' stop-color='%23bfcbd1'/%3E%3Cstop offset='0.618' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.618' stop-color='%23d6dee2'/%3E%3Cstop offset='0.656' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.656' stop-color='%23d2dadf'/%3E%3Cstop offset='0.679' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.679' stop-color='%23dbdee0'/%3E%3Cstop offset='0.689' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.689' stop-color='%23d1d9de'/%3E%3Cstop offset='0.720' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.720' stop-color='%23b7c6cd'/%3E%3Cstop offset='0.734' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.734' stop-color='%23949da1'/%3E%3Cstop offset='0.748' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.748' stop-color='%23b1b8bb'/%3E%3Cstop offset='0.764' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.764' stop-color='%23a5b3b9'/%3E%3Cstop offset='0.788' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.788' stop-color='%23889296'/%3E%3Cstop offset='0.808' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.808' stop-color='%23a8aeb2'/%3E%3Cstop offset='0.831' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.831' stop-color='%23949899'/%3E%3Cstop offset='0.856' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.856' stop-color='%238c9396'/%3E%3Cstop offset='0.872' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.872' stop-color='%23b6c4cb'/%3E%3Cstop offset='0.894' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.894' stop-color='%23bdc4c8'/%3E%3Cstop offset='0.914' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.914' stop-color='%23828c91'/%3E%3Cstop offset='0.942' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.942' stop-color='%23c6ced3'/%3E%3Cstop offset='0.957' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.957' stop-color='%239d9fa1'/%3E%3Cstop offset='0.973' stop-color='%23B2C2CA'/%3E%3Cstop offset='0.973' stop-color='%23abb9c0'/%3E%3Cstop offset='1' stop-color='%23B2C2CA'/%3E%3Cstop offset='1' stop-color='%23aeb7bc'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' x='0' y='0' width='100%25' height='100%25'/%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;}
+
